@@ -1,0 +1,13 @@
+title 0.6 New Note SPA
+
+note over Client: input in the text field
+note over Client: clicking "submit"
+note over Client: note list rerender
+note over Client: sending the note to the server
+
+note right of Client: {content: %example%", date:"YYYY-MM-DD"}
+Client->Server: HTML POST https://studies.cs.helsinki.fi/exampleapp/new_note_spa
+
+Server-->Client: HTTP status code 201 (no URL redirect)
+
+note over Client: doesn't reload the page
