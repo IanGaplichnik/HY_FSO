@@ -2,7 +2,7 @@
 
 ## Task
 
-This exercise depicts a sequence of events, required for browser and server, to update and display updated simple web-page, including new information. This method does include the AJAX and done in more modern manner (compared to [part0/ex0.4](https://github.com/IanGaplichnik/HY_FSO/tree/main/part0/ex0.4)
+This exercise depicts a sequence of events, required for browser and server, to update and display updated simple web-page, including new information. This method does include the AJAX and done in more modern manner (compared to [part0/ex0.4](https://github.com/IanGaplichnik/HY_FSO/tree/main/part0/ex0.4)).
 
 User is asked to add a note at [this dummy page](https://studies.cs.helsinki.fi/exampleapp/notes), provided by the University of Helsinki.
 
