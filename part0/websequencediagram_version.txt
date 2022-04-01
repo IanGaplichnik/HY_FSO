@@ -1,0 +1,33 @@
+title 0.4 New Note
+
+note over Client: input in the text field
+note over Client: clicking "submit"
+
+Client->Server: HTML POST https://studies.cs.helsinki.fi/exampleapp/new_note
+
+note over Server: adding received note to the list
+
+Server-->Client: HTTP status code 302 (URL redirect to ../exampleapp/notes)
+Client->Server: HTML GET https://studies.cs.helsinki.fi/exampleapp/notes
+Server-->Client: HTML code
+
+note over Client: 
+execute html, 
+find extra files
+end note
+
+Client->Server: HTML GET https://studies.cs.helsinki.fi/exampleapp/main.css
+Server-->Client: main.css
+
+note over Client: apply .css
+Client->Server: HTML GET https://studies.cs.helsinki.fi/exampleapp/main.js
+Server-->Client: main.js
+
+note over Client: executing .js
+
+note over Client: .js requires .json
+
+Client -> Server: HTML GET https://studies.cs.helsinki.fi/exampleapp/data.json
+Server --> Client: data.json
+
+note over Client: render and display the page
